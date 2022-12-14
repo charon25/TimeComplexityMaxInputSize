@@ -21,7 +21,7 @@ For every computation, the chosen base of the logarithm is $e$.
 | $\mathcal{O}(n\sqrt n)$ |Divisors $\forall k\leq n$ | $10^4$ | $10^6$ | $10^9$ |
 | $\mathcal{O}(n^2)$ | $n$ x $n$ grid scan| $10^3$ | $3.2\cdot 10^4$ | $10^6$ |
 | $\mathcal{O}(n^2\log n)$ |   | $407$ | $10^4$ | $2.8\cdot 10^5$ |
-| $\mathcal{O}(n^2\sqrt n)$ |   | $251$ | $398$0| $6.3\cdot 10^4$ |
+| $\mathcal{O}(n^2\sqrt n)$ |   | $251$ | $3980$| $6.3\cdot 10^4$ |
 | $\mathcal{O}(n^{\log_2 7})$ |Strassen's algorithm <br> for matrix multiplication|$137$|$1600$| $1.9\cdot 10^4$ |
 | $\mathcal{O}(n^3)$ |Naive matrix multiplication|$100$|$1000$| $10^4$ |
 | $\mathcal{O}(2^n)$ |Power set|$20$|$30$|$40$|
