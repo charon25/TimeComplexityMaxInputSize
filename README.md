@@ -22,11 +22,11 @@ For every computation, the chosen base of the logarithm is $e$.
 | $\mathcal{O}(n^2)$ | $n$ x $n$ grid scan| $10^3$ | $3.2\cdot 10^4$ | $10^6$ |
 | $\mathcal{O}(n^2\log n)$ |   | $407$ | $10^4$ | $2.8\cdot 10^5$ |
 | $\mathcal{O}(n^2\sqrt n)$ |   | $251$ | $398$0| $6.3\cdot 10^4$ |
-| $\mathcal{O}(n^{\log_2 7})$ |Strassen's matrix multiplication algorithm|$137$|$1600$| $1.9\cdot 10^4$ |
+| $\mathcal{O}(n^{\log_2 7})$ |Strassen's algorithm <br> for matrix multiplication|$137$|$1600$| $1.9\cdot 10^4$ |
 | $\mathcal{O}(n^3)$ |Naive matrix multiplication|$100$|$1000$| $10^4$ |
 | $\mathcal{O}(2^n)$ |Power set|$20$|$30$|$40$|
 | $\mathcal{O}(n\cdot 2^n)$ |   |$16$|$25$|$35$|
-| $\mathcal{O}(n^2\cdot 2^n)$ |TSP via dynamic programming|$13$|$21$|$30$|
+| $\mathcal{O}(n^2\cdot 2^n)$ |TSP via <br> dynamic programming|$13$|$21$|$30$|
 | $\mathcal{O}(e^n)$ |   |$14$|$21$|$28$|
 | $\mathcal{O}(10^n)$ |   |$6$|$9$|$12$|
 | $\mathcal{O}(n!)$ |Naive TSP|$9$|$12$|$14$|
