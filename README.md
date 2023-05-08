@@ -4,7 +4,7 @@ This table gives the maximum input size $n$ you can use with an algorithm of a g
 
 This of course does not take into account any leading coefficients or more complicated expressions of the time complexity, but it gives a rough estimate.
 
-For instance, if an $\mathcal{O}(n\log n)$ algorithm is used with a maximum number of operations of 1,000,000, the input should not be grater than 88,000.
+For instance, if an $\mathcal{O}(n\log n)$ algorithm is used with a maximum number of operations of 1,000,000, the input should not be greater than 88,000.
 
 For every computation, the chosen base of the logarithm is $e$.
 
@@ -17,13 +17,17 @@ For every computation, the chosen base of the logarithm is $e$.
 | $\mathcal{O}(n)$ |Array scan| $10^6$ | $10^9$ | $10^{12}$ |
 | $\mathcal{O}(n\log\log n)$ |Sieve of Erastothenes| $3.9\cdot 10^5$ | $3.4\cdot 10^8$ | $3.1\cdot 10^{11}$ |
 | $\mathcal{O}(n\log n)$ |Quick sort| $8.8\cdot 10^4$ | $5.6\cdot 10^7$ | $4.1\cdot 10^{10}$ |
+| $\mathcal{O}(n\log n \log\log n)$ |Schönhage–Strassen's algorithm for multiplication| $4.0\cdot 10^4$ | $2.1\cdot 10^7$ | $1.4\cdot 10^{10}$ |
 | $\mathcal{O}(n(\log n)^2)$ |Shell sort| $1.1\cdot 10^4$ | $4.3\cdot 10^6$ | $2.2\cdot 10^9$ |
 | $\mathcal{O}(n\sqrt n)$ |Divisors $\forall k\leq n$ | $10^4$ | $10^6$ | $10^9$ |
-| $\mathcal{O}(n^2)$ | $n$ x $n$ grid scan| $10^3$ | $3.2\cdot 10^4$ | $10^6$ |
+| $\mathcal{O}(n^{\log_2 3})$ |Karatsuba's algorithm for multiplication | $6103$ | $4.8\cdot 10^5$ | $3.7\cdot 10^7$ |
+| $\mathcal{O}(n^2)$ | $n$ x $n$ grid scan| $1000$ | $3.2\cdot 10^4$ | $10^6$ |
 | $\mathcal{O}(n^2\log n)$ |   | $407$ | $10^4$ | $2.8\cdot 10^5$ |
 | $\mathcal{O}(n^2\sqrt n)$ |   | $251$ | $3980$| $6.3\cdot 10^4$ |
+| $\mathcal{O}(n^{\log_{1.5} 3})$ | Stooge sort | $164$ | $2097$| $2.7\cdot 10^4$ |
 | $\mathcal{O}(n^{\log_2 7})$ |Strassen's algorithm <br> for matrix multiplication|$137$|$1600$| $1.9\cdot 10^4$ |
 | $\mathcal{O}(n^3)$ |Naive matrix multiplication|$100$|$1000$| $10^4$ |
+| $\mathcal{O}(n^{\log_2 n})$ |Slowsort|$22$|$44$| $80$ |
 | $\mathcal{O}(2^n)$ |Power set|$20$|$30$|$40$|
 | $\mathcal{O}(n\cdot 2^n)$ |   |$16$|$25$|$35$|
 | $\mathcal{O}(n^2\cdot 2^n)$ |TSP via <br> dynamic programming|$13$|$21$|$30$|
